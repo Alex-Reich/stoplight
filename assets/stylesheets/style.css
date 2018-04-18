@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+.post {
+    height: 75px;
+    width: 50px;
+    background-color: darkslategrey;
+    margin-left: 40px;
+}
+.circle1 {
+ height: 100px;
+ width: 100px;
+ background-color: red;
+ border-radius: 50%;
+ margin: 10px auto;
+}
+.circle2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.circle3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.rectangle {
+    height: 350px;
+    width: 130px;
+background-color: darkslategrey;
+display: inline-block;
+}
+.inlineblock {
+    display: inline-block;
+}
+.centertext {
+    text-align: center;
+}
+.whitetext {
+    color: white;
+}
+div:hover {
+    background-color: white;
+    border-radius: 50%;
+}
