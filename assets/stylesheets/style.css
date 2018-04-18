@@ -43,7 +43,12 @@ display: inline-block;
 .whitetext {
     color: white;
 }
-div:hover {
-    background-color: white;
-    border-radius: 50%;
+.circle1:hover {
+    box-shadow: 0px 0px 5px 5px pink;
+}
+.circle2:hover {
+    box-shadow: 0px 0px 5px 5px lightyellow;
+}
+.circle3:hover {
+    box-shadow: 0px 0px 5px 5px lightgreen;
 }
